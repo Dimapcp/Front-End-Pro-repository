@@ -1,8 +1,31 @@
-#greycol {
-    text-decoration: grey;
-    color: #ffffff35;
+:root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-#yellow {
-    text-decoration: yellow;
-    color: #ffff00;
+.align1 {
+    background-color: chocolate;
+    list-style: outside;
+}
+.align2 {
+    background-color: rgb(255, 106, 0);
+    list-style: outside;
+}
+.align3 {
+    background-color: rgb(255, 0, 0);
+    list-style: outside;
+}
+.align4 {
+    background-color: rgb(255, 255, 0);
+    list-style: outside;
+}
+.align5 {
+    background-color: rgb(13, 255, 0);
+    list-style: outside;
+}
+h2 {
+    border-bottom: 30px;
+    text-decoration: underline;
+    text-decoration-color: gold;
+    -webkit-text-fill-color: greenyellow;
 }
